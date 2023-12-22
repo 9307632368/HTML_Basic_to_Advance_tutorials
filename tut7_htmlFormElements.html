@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form elements</title>
+</head>
+<body>
+    <form action="">
+     <label for="fname">First Name</label>
+     <input type="text" placeholder="Enter your Name" id="fname" name="fName"><br><br>
+
+
+     <label for="mname">Middle Name</label>
+     <input type="text" placeholder="Enter your Middel name" id="mname" name="mName"><br><br>
+
+
+     <label for="lname">last Name</label>
+     <input type="text" placeholder="Enter your last name" id="lname" name="lName"><br><br>
+
+
+     <label for="age">Age</label>
+     <input type="number" id="age" name="age"><br><br>
+
+
+     <label for="DOB">Date of Birth</label>
+     <input type="date" id="DOB"><br><br>
+
+
+     <label for="mail">Email</label>
+     <input type="email" id="mail" placeholder="example@gmail.com" name="email"><br><br>
+
+
+     <label for="pass">Password</label>
+     <input type="password" id="pass" ><br><br>
+
+
+     <label for="">Gender: </label>
+     <input type="radio" name="gender" id="male" value="male">
+     <label for="male">Male</label>
+     <input type="radio" name="gender" id="female" value="female">
+     <label for="female">Female</label>
+     <input type="radio" name="gender" id="other" value="other">
+     <label for="other">other</label><br><br>
+
+
+     <label for="car">Select a Car</label>
+     <select id="car" name="cars">
+      <option value="RollsRoyce">RollsRoyce</option>
+      <option value="RollsRoyce">lamborgini</option>
+      <option value="RollsRoyce">supra</option>
+      <option value="RollsRoyce">volvo</option>
+     </select><br><br>
+
+
+     <label for="describe">Describe yourself</label>
+     <textarea id="describe" cols="30" rows="5" name="describeyourself"></textarea><br><br>
+
+
+     <label for="search">search</label>
+     <input type="search" id="search" placeholder="search"><br><br>
+
+
+     <label for="url">url</label>
+     <input type="url" id="url" name="url" placeholder="paste url"><br><br>
+
+
+     <label for="phoneNo"></label>
+     <input type="tel" id="phoneNo" name="phone" placeholder="123-45-6789"><br><br>
+
+
+     <label for="intrest">Intrests:</label>
+     <label for="html">HTML</label>
+     <input type="checkbox" id="html" name="intrests" value="HTML">
+    <label for="css">CSS</label>
+     <input type="checkbox" id="css" name="intrests" value="css" checked >
+     <label for="js">javascript</label>
+     <input type="checkbox" id="js" name="intrests" value="javascript"><br><br>
+
+
+     <label for="File">Select File:</label>
+     <input type="file" id="File" name="pic"><br><br>
+
+     <label for="mFiles">select multiple files</label>
+     <input type="file" id="mFiles" name="pic" multiple><br><br>
+
+
+     <input type="image" src="images/ana.jpg" width="100px" height="100px"><br><br>
+
+
+     <label for="ss">browsers</label>
+     <input list="browsers" id="ss">
+     <datalist id="browsers" name="browsers">
+     <option value="chrome">chrome</option>
+     <option value="operamini">operamini</option>
+     <option value="edge">edge</option>
+     <option value="firefox">firefox</option>
+     </datalist><br><br>
+
+
+     <label for="cartoons">cartoons</label>
+     <select id="cartoons" name="cartoon">
+     <optgroup label="japnese cartoons">
+     <option value="hatori">hatori</option>
+     <option value="hagimaru">hagimaru</option>
+     <option value="doremon">dorimon</option>
+     </optgroup>
+     <optgroup label="american cartoons">
+     <option value="ben10">ben 10</option>
+     <option value="shounthesheep">shuan the sheep</option>
+
+     </optgroup>
+     </select>
+
+     <label for="reset"></label>
+     <input type="reset" id="reset">
+
+
+     <input type="submit">
+     
+     
+
+    </form>
+</body>
+</html>
